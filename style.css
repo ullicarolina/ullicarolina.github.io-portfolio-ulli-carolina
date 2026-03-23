@@ -1,0 +1,145 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+****** FORMATAÇÕES GENÉRICAS ******
+*/
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d8e8d8;
+}
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    color: #59925f;
+    text-align: center;
+}
+
+/*text-align: center para centralizar o título das postagens*/
+
+h3{
+    color: #565656;
+    background: #cccccc;
+    padding: 5px;
+}
+
+/*
+****** HEADER ******
+*/
+
+#header{
+    background-color: #b6acd3;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: #8e7dba;
+    background: #d8e8d8;
+    text-decoration: none;
+}
+
+.white{
+    color: #ffffff;
+}
+
+.green{
+    color: #59925f;
+}
+/*
+****** CONTENT ******
+*/
+li {
+    margin-left: 30px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#content{ 
+    width: 920px;
+    margin: 0px 420px;
+    padding: 15px;
+}
+
+/* margin como 0px 420px para alinhá-lo com a header*/
+
+#posts{
+    width: 660px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #d3cce7;
+    text-align: justify;
+}
+
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #0066cc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post{
+    width: 200px;
+    margin: 0px 210px;
+}
+
+/*
+****** FORMATAÇÃO LINKS ******
+*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #0066cc;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+****** FOOTER ******
+*/
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #8e7dba;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* 3 últimas linhas utilizadas para fixar o footer no rodapé de todas as páginas */
+}
+
