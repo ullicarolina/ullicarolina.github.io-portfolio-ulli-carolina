@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--formulário com campos nome, e-mail e mensagem (validação obrigatória em
+JavaScript e simulação do envio).-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio da Ulli</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div id="logo">
+            <h1>Portfólio pessoal da <span class="purple">Ulli</span></h1>
+        </div>
+    
+        <div id="menu">
+            <a href="sobre.html">Sobre mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+
+    </div>
+
+    <div id="content">
+
+        <div id="posts">
+
+            <!-- abertura postagem -->
+            <div class="post">
+                <h2>Entre em contato</h2>
+                <form name="meu_form">
+<br>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
+  <br>
+  <label for="fone">Telefone:</label>
+  <input type="tel" id="foneid" placeholder="(xx) xxxx-xxxx" name="fone" />
+<br>
+  <label for="email"><em>E-mail:</em></label>
+  <input type="email" id="emailid" placeholder="Digite seu e-mail" name="email" />
+<br>
+  <textarea placeholder="Deixe aqui sua dúvida, solicitação, elogio e qualquer outra coisa que gostaria de me dizer."></textarea>
+<br>
+  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+</form> <!--código utilizado para criar 4 caixas de texto diferentes, para preenchimento dos dados necessários para contato com aquele que confeccionou o site.7-->
+            </div>
+            <!--fechamento postagem -->
+
+        </div>
+    
+        </div>
+
+        <div id="footer">
+            Todos os direitos reservados - ULLI CAROLINA VIEIRA DE LIMA
+        </div>
+
+    </div>
+<script src="/js/function.js"></script>
+</body>
+
+</html>
